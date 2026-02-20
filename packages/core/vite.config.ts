@@ -36,6 +36,10 @@ export default defineConfig({
                 ...Object.keys(pkg.peerDependencies ?? {}),
             ],
             output: {
+                manualChunks: (id) => {
+                    const chunks = id.match(/[/\\]src[/\\](.*?)[/\\]/)
+                    return chunks ? chunks[1] : null
+                },
                 exports: 'named',
                 chunkFileNames: '[name].js',
                 minifyInternalExports: true,
