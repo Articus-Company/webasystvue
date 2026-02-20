@@ -1,0 +1,23 @@
+{
+    "name": "webasystvue-histoire",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "story": "histoire dev"
+    },
+    "dependencies": {
+        "vue": "^3.5.27"
+    },
+    "devDependencies": {
+        "@histoire/plugin-vue": "^1.0.0-beta.1",
+        "@rollup/plugin-alias": "^6.0.0",
+        "@types/node": "^24.10.9",
+        "@vitejs/plugin-vue": "^6.0.3",
+        "@vue/tsconfig": "^0.8.1",
+        "histoire": "^1.0.0-beta.1",
+        "typescript": "~5.9.3",
+        "vite": "^7.3.1",
+        "vue-tsc": "^3.2.4"
+    }
+}

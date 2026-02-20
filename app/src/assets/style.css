@@ -1,0 +1,24 @@
+html {
+    scroll-behavior: smooth;
+    --webasystvue-card-background: 60 8% 97%;
+}
+
+html[data-theme='dark'] {
+    --webasystvue-card-background: 24 9.8% 10%;
+}
+
+h1 {
+    font-size: 2.25em
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+:target {
+    scroll-margin-top: 4rem;
+}

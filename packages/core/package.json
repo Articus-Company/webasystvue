@@ -1,0 +1,51 @@
+{
+    "name": "webasystvue",
+    "type": "module",
+    "version": "0.1.0",
+    "scripts": {
+        "build": "npm run type-check && vite build",
+        "build-only": "vite build",
+        "watch": "vite build --watch",
+        "type-check": "vue-tsc -p tsconfig.build.json --noEmit",
+        "pub:release": "pnpm publish --no-git-checks --access public"
+    },
+    "sideEffects": false,
+    "exports": {
+        ".": {
+            "import": "./dist/index.js"
+        },
+        "./package.json": "./package.json"
+    },
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "src",
+        "dist",
+        "!src/**/*.story.vue",
+        "!src/**/*.test.*",
+        "!src/**/_*.vue",
+        "!src/**/__snapshots__",
+        "!src/**/stories",
+        "!src/**/story"
+    ],
+    "peerDependencies": {
+        "vue": "^3.2.0"
+    },
+    "dependencies": {
+        "@vueuse/core": "^14.1.0",
+        "class-variance-authority": "^0.7.1",
+        "reka-ui": "^2.8.0"
+    },
+    "devDependencies": {
+        "@tsconfig/node24": "^24.0.4",
+        "@types/node": "^24.10.9",
+        "@vitejs/plugin-vue": "^6.0.3",
+        "@vue/tsconfig": "^0.8.1",
+        "clsx": "^2.1.1",
+        "jiti": "^2.6.1",
+        "tsx": "^4.21.0",
+        "vite": "npm:rolldown-vite@latest",
+        "vite-plugin-dts": "^4.5.4",
+        "vue-tsc": "^3.2.4"
+    }
+}

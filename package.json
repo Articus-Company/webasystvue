@@ -1,0 +1,22 @@
+{
+    "name": "webasystvue",
+    "version": "0.1.0",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "lint": "eslint \"{app,.histoire,packages}/**/*.{ts,tsx,js,jsx,vue}\"",
+        "lint:fix": "eslint \"{app,.histoire,packages}/**/*.{ts,tsx,js,jsx,vue}\" --fix",
+        "build:core": "pnpm lint && cd packages/core && pnpm build"
+    },
+    "devDependencies": {
+        "@antfu/eslint-config": "^7.2.0",
+        "@vue/eslint-config-prettier": "^10.2.0",
+        "@vue/eslint-config-typescript": "^14.6.0",
+        "eslint": "^9.39.0",
+        "eslint-plugin-vue": "~10.5.1",
+        "typescript": "~5.9.3",
+        "vue-tsc": "^3.2.4"
+    }
+}

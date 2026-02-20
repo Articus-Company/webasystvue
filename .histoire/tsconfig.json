@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "moduleResolution": "bundler"
+    },
+    "includes": ["../packages/core/src/**/*.vue", "../packages/core/src/**/*.ts"]
+}

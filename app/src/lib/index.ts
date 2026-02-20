@@ -1,0 +1,1 @@
+export { getVueHighlighter } from './shiki'

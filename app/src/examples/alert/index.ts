@@ -1,0 +1,5 @@
+export { default as AlertAnatomyExample } from './AlertAnatomyExample.vue'
+export { default as AlertCloseExample } from './AlertCloseExample.vue'
+export { default as AlertDemoExample } from './AlertDemoExample.vue'
+export { default as AlertFixedBoxExample } from './AlertFixedBoxExample.vue'
+export { default as AlertSimpleExample } from './AlertSimpleExample.vue'

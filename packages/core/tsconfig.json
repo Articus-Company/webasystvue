@@ -1,0 +1,22 @@
+{
+    "extends": "@vue/tsconfig/tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"],
+            "@lib/*": ["./lib/*"]
+        },
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+        "outDir": "dist",
+        "moduleResolution": "bundler"
+    },
+    "include": [
+        "src/**/*",
+        "vite.config.*",
+        "env.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+}

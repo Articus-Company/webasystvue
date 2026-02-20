@@ -1,0 +1,5 @@
+export { default as ApiPropsAsChildDesc } from './ApiPropsAsChildDesc.vue'
+export { default as ApiPropsAsDesc } from './ApiPropsAsDesc.vue'
+export { default as ApiPropsTable } from './ApiPropsTable.vue'
+export { default as ApiPropsTableCodeAlt } from './ApiPropsTableCodeAlt.vue'
+export { default as ApiPropsTableCodeDesc } from './ApiPropsTableCodeDesc.vue'
