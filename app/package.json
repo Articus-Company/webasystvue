@@ -13,9 +13,11 @@
         "type-check": "vue-tsc --noEmit"
     },
     "dependencies": {
-        "shiki": "^3.22.0",
+        "@shikijs/langs": "^3.22.0",
+        "@shikijs/themes": "^3.22.0",
         "@shikijs/transformers": "^3.22.0",
         "@vueuse/core": "^14.2.1",
+        "shiki": "^3.22.0",
         "vue": "^3.5.27",
         "vue-router": "^4.6.4",
         "webasystvue": "file:../packages/core"
