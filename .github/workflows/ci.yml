@@ -1,0 +1,48 @@
+name: CI
+
+on:
+    push:
+        branches:
+            - main
+
+    pull_request:
+        types: [ opened, reopened, synchronize ]
+
+jobs:
+    run:
+        name: Lint, Spell Check and Type Check
+        runs-on: ubuntu-latest
+        steps:
+            -   name: Checkout Actions Repository
+                uses: actions/checkout@v6
+
+            -   uses: pnpm/action-setup@v4
+                with:
+                    version: 10
+
+            -   name: Setup Node
+                uses: actions/setup-node@v6
+                with:
+                    node-version: 24
+                    cache: pnpm
+
+            -   name: Writes changes in the local checkout
+                uses: crate-ci/typos@master
+
+            -   name: Install deps
+                run: pnpm install --frozen-lockfile
+
+            -   name: Build core
+                run: pnpm build-only:core
+
+            -   name: Build vite plugin
+                run: pnpm build:vite-plugin-webasyst
+
+            -   name: Build app
+                run: pnpm build-only:app
+
+            -   name: Typecheck
+                run: pnpm typecheck
+
+            -   name: Lint
+                run: pnpm lint
