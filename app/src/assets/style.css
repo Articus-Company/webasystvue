@@ -22,3 +22,10 @@ h3 {
 :target {
     scroll-margin-top: 4rem;
 }
+
+code {
+    font-size: .875rem;
+    padding-inline: .375rem;
+    padding-block: .125rem;
+    border: 1px solid var(--border-color-soft);
+}
