@@ -26,6 +26,7 @@
     border-radius: unset;
     padding: 0 24px;
     display: block;
+    border: none;
 }
 
 .webasystvue-highlighter .shiki span.line.highlighted {
