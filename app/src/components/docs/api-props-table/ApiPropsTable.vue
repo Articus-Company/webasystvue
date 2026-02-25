@@ -2,7 +2,9 @@
     <Table>
         <TableRow>
             <TableHead>Prop</TableHead>
-            <TableHead>Default</TableHead>
+            <TableHead align="center">
+                Default
+            </TableHead>
             <TableHead max-width>
                 Type
             </TableHead>
@@ -16,7 +18,7 @@
                     <code class="bold">{{ row.prop }}</code>
                 </slot>
             </TableCell>
-            <TableCell>
+            <TableCell align="center">
                 <slot :name="`default-${index}`">
                     <ApiPropsTableCodeAlt v-if="row.default">
                         {{ row.default }}
