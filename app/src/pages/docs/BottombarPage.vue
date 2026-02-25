@@ -72,7 +72,7 @@
 
                 <ApiPropsTable
                     :rows="[
-                        { prop: 'as' },
+                        { prop: 'as', default: `'li'` },
                         { prop: 'asChild' },
                         { prop: 'selected', type: 'boolean' },
                     ]"
