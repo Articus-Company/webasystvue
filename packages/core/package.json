@@ -1,7 +1,7 @@
 {
     "name": "webasystvue",
     "type": "module",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "scripts": {
         "build": "npm run type-check && vite build",
         "build-only": "vite build",
@@ -15,6 +15,10 @@
             "import": "./dist/index.js"
         },
         "./package.json": "./package.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Articus-Company/webasystvue.git"
     },
     "module": "./dist/index.js",
     "types": "./dist/index.d.ts",
