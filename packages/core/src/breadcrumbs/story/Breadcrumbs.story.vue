@@ -2,23 +2,31 @@
     <Story title="Breadcrumbs/Demo">
         <Variant title="default">
             <Breadcrumbs>
-                <BreadcrumbsItem>
-                    <a href="">Корневой раздел</a>
-                </BreadcrumbsItem>
-                <BreadcrumbsItem>
-                    <a href="">Каталог</a>
-                </BreadcrumbsItem>
-                <BreadcrumbsItem>
-                    <a href="">Директория</a>
-                </BreadcrumbsItem>
-                <BreadcrumbsItem active>
-                    <a href="">Активный раздел</a>
-                </BreadcrumbsItem>
+                <BreadcrumbsSection>
+                    <BreadcrumbsItem>
+                        Корневой раздел
+                    </BreadcrumbsItem>
+                </BreadcrumbsSection>
+                <BreadcrumbsSection>
+                    <BreadcrumbsItem>
+                        Каталог
+                    </BreadcrumbsItem>
+                </BreadcrumbsSection>
+                <BreadcrumbsSection>
+                    <BreadcrumbsItem>
+                        Директория
+                    </BreadcrumbsItem>
+                </BreadcrumbsSection>
+                <BreadcrumbsSection active>
+                    <BreadcrumbsItem>
+                        Активный раздел
+                    </BreadcrumbsItem>
+                </BreadcrumbsSection>
             </Breadcrumbs>
         </Variant>
     </Story>
 </template>
 
 <script setup lang="ts">
-import { Breadcrumbs, BreadcrumbsItem } from '@/breadcrumbs'
+import { Breadcrumbs, BreadcrumbsItem, BreadcrumbsSection } from '@/breadcrumbs'
 </script>
