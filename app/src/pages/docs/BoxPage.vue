@@ -68,7 +68,10 @@
                     Пример с contentbox
                 </DocHeading>
 
-                <DemoCard :code="boxContentboxExampleRaw">
+                <DemoCard
+                    :code="boxContentboxExampleRaw"
+                    highlight-lines="{4}"
+                >
                     <BoxContentboxExample/>
                 </DemoCard>
 
@@ -80,7 +83,10 @@
                     Пример с rounded
                 </DocHeading>
 
-                <DemoCard :code="boxRoundedExampleRaw">
+                <DemoCard
+                    :code="boxRoundedExampleRaw"
+                    highlight-lines="{4}"
+                >
                     <BoxRoundedExample/>
                 </DemoCard>
 
@@ -92,7 +98,10 @@
                     Пример с uploadbox
                 </DocHeading>
 
-                <DemoCard :code="boxUploadboxExampleRaw">
+                <DemoCard
+                    :code="boxUploadboxExampleRaw"
+                    highlight-lines="{4}"
+                >
                     <BoxUploadboxExample/>
                 </DemoCard>
             </ArticleBody>
