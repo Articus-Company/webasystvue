@@ -154,7 +154,10 @@
                     Пример с header и footer
                 </DocHeading>
 
-                <CodeVueHighlighter :code="articleHeaderFooterExampleRaw"/>
+                <CodeVueHighlighter
+                    :code="articleHeaderFooterExampleRaw"
+                    highlight-lines="{3,5,10,12}"
+                />
             </ArticleBody>
         </Article>
     </DocsLayout>
