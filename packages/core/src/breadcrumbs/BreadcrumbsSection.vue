@@ -1,16 +1,18 @@
 <template>
-    <li
+    <Primitive
+        as="li"
         :class="clsx(breadcrumbsSectionVariants({ active }), props.class)"
         v-bind="delegatedProps"
     >
         <slot/>
-    </li>
+    </Primitive>
 </template>
 
 <script lang="ts">
+import type { PrimitiveProps } from 'reka-ui'
 import type { HTMLAttributes } from 'vue'
 
-export interface BreadcrumbsSectionProps {
+export interface BreadcrumbsSectionProps extends Omit<PrimitiveProps, 'as'> {
     class?: HTMLAttributes['class']
     active?: boolean
 }
@@ -19,6 +21,7 @@ export interface BreadcrumbsSectionProps {
 <script setup lang="ts">
 import { reactiveOmit } from '@vueuse/core'
 import { clsx } from 'clsx'
+import { Primitive } from 'reka-ui'
 import { breadcrumbsSectionVariants } from '.'
 
 const props = defineProps<BreadcrumbsSectionProps>()

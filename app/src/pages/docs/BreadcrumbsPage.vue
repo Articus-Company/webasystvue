@@ -39,7 +39,13 @@
                     &lt;Breadcrumbs&gt;
                 </DocHeading>
 
-                <p>Корневой элемент. Не имеет собственного API. Всегда рендерит <code>ul</code>.</p>
+                <ApiPropsTable
+                    :rows="[{ prop: 'asChild' }]"
+                >
+                    <template #type-0>
+                        <ApiPropsAsChildDesc/>
+                    </template>
+                </ApiPropsTable>
 
                 <DocHeading
                     id="el-breadcrumbs-section"
@@ -49,7 +55,16 @@
                     &lt;BreadcrumbsSection&gt;
                 </DocHeading>
 
-                <ApiPropsTable :rows="[{ prop: 'active', type: 'boolean' }]"/>
+                <ApiPropsTable
+                    :rows="[
+                        { prop: 'active', type: 'boolean' },
+                        { prop: 'asChild' },
+                    ]"
+                >
+                    <template #type-1>
+                        <ApiPropsAsChildDesc/>
+                    </template>
+                </ApiPropsTable>
 
                 <DocHeading
                     id="el-breadcrumbs-item"
