@@ -18,5 +18,11 @@ export const tableboxVariants = cva('tablebox', {
 
 export type TableboxVariants = VariantProps<typeof tableboxVariants>
 
-export { default as Tablebox } from './Tablebox.vue'
-export { default as TableboxMiddle } from './TableboxMiddle.vue'
+export {
+    default as Tablebox,
+    type TableboxProps,
+} from './Tablebox.vue'
+export {
+    default as TableboxMiddle,
+    type TableboxMiddleProps,
+} from './TableboxMiddle.vue'

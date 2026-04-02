@@ -16,4 +16,7 @@ export const boxVariants = cva('box', {
 
 export type BoxVariants = VariantProps<typeof boxVariants>
 
-export { default as Box } from './Box.vue'
+export {
+    default as Box,
+    type BoxProps,
+} from './Box.vue'

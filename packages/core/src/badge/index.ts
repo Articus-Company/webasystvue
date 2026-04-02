@@ -19,4 +19,7 @@ export const badgeVariants = cva('badge', {
 
 export type BadgeVariants = VariantProps<typeof badgeVariants>
 
-export { default as Badge } from './Badge.vue'
+export {
+    default as Badge,
+    type BadgeProps,
+} from './Badge.vue'

@@ -69,11 +69,35 @@ export const tabsNextVariants = cva('right', {
 
 export type TabsNextVariants = VariantProps<typeof tabsNextVariants>
 
-export { default as Tabs } from './Tabs.vue'
-export { default as TabsArrowWrapper } from './TabsArrowWrapper.vue'
-export { default as TabsItem } from './TabsItem.vue'
-export { default as TabsItemCount } from './TabsItemCount.vue'
-export { default as TabsNext } from './TabsNext.vue'
-export { default as TabsPrevious } from './TabsPrevious.vue'
-export { default as TabsSection } from './TabsSection.vue'
-export { default as TabsWrapperArrows } from './TabsWrapperArrows.vue'
+export {
+    default as Tabs,
+    type TabsProps,
+} from './Tabs.vue'
+export {
+    default as TabsArrowWrapper,
+    type TabsArrowWrapperProps,
+} from './TabsArrowWrapper.vue'
+export {
+    default as TabsItem,
+    type TabsItemProps,
+} from './TabsItem.vue'
+export {
+    default as TabsItemCount,
+    type TabsItemCountProps,
+} from './TabsItemCount.vue'
+export {
+    default as TabsNext,
+    type TabsNextProps,
+} from './TabsNext.vue'
+export {
+    default as TabsPrevious,
+    type TabsPreviousProps,
+} from './TabsPrevious.vue'
+export {
+    default as TabsSection,
+    type TabsSectionProps,
+} from './TabsSection.vue'
+export {
+    default as TabsWrapperArrows,
+    type TabsWrapperArrowsProps,
+} from './TabsWrapperArrows.vue'

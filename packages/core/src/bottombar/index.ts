@@ -12,6 +12,14 @@ export const bottombarListItemVariants = cva('', {
 
 export type BottombarListItemVariants = VariantProps<typeof bottombarListItemVariants>
 
-export { default as Bottombar } from './Bottombar.vue'
-export { default as BottombarList } from './BottombarList.vue'
-export { default as BottombarListItem } from './BottombarListItem.vue'
+export {
+    default as Bottombar,
+    type BottombarProps,
+} from './Bottombar.vue'
+export {
+    default as BottombarList,
+} from './BottombarList.vue'
+export {
+    default as BottombarListItem,
+    type BottombarListItemProps,
+} from './BottombarListItem.vue'

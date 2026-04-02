@@ -36,4 +36,7 @@ export const buttonVariants = cva('button', {
 
 export type ButtonVariants = VariantProps<typeof buttonVariants>
 
-export { default as Button } from './Button.vue'
+export {
+    default as Button,
+    type ButtonProps,
+} from './Button.vue'

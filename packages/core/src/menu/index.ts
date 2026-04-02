@@ -48,8 +48,23 @@ export const menuItemCountVariants = cva('count', {
 
 export type MenuItemCountVariants = VariantProps<typeof menuItemCountVariants>
 
-export { default as Menu } from './Menu.vue'
-export { default as MenuItem } from './MenuItem.vue'
-export { default as MenuItemCount } from './MenuItemCount.vue'
-export { default as MenuItemIcon } from './MenuItemIcon.vue'
-export { default as MenuSection } from './MenuSection.vue'
+export {
+    default as Menu,
+    type MenuProps,
+} from './Menu.vue'
+export {
+    default as MenuItem,
+    type MenuItemProps,
+} from './MenuItem.vue'
+export {
+    default as MenuItemCount,
+    type MenuItemCountProps,
+} from './MenuItemCount.vue'
+export {
+    default as MenuItemIcon,
+    type MenuItemIconProps,
+} from './MenuItemIcon.vue'
+export {
+    default as MenuSection,
+    type MenuSectionProps,
+} from './MenuSection.vue'

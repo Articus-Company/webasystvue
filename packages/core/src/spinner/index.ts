@@ -29,4 +29,7 @@ export const spinnerVariants = cva('spinner', {
 
 export type SpinnerVariants = VariantProps<typeof spinnerVariants>
 
-export { default as Spinner } from './Spinner.vue'
+export {
+    default as Spinner,
+    type SpinnerProps,
+} from './Spinner.vue'

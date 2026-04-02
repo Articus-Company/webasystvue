@@ -19,9 +19,27 @@ export const skeletonCustomCircleVariants = cva('skeleton-custom-circle', {
 
 export type SkeletonCustomCircleVariants = VariantProps<typeof skeletonCustomCircleVariants>
 
-export { default as Skeleton } from './Skeleton.vue'
-export { default as SkeletonCustomBox } from './SkeletonCustomBox.vue'
-export { default as SkeletonCustomCircle } from './SkeletonCustomCircle.vue'
-export { default as SkeletonHeader } from './SkeletonHeader.vue'
-export { default as SkeletonLine } from './SkeletonLine.vue'
-export { default as SkeletonList } from './SkeletonList.vue'
+export {
+    default as Skeleton,
+    type SkeletonProps,
+} from './Skeleton.vue'
+export {
+    default as SkeletonCustomBox,
+    type SkeletonCustomBoxProps,
+} from './SkeletonCustomBox.vue'
+export {
+    default as SkeletonCustomCircle,
+    type SkeletonCustomCircleProps,
+} from './SkeletonCustomCircle.vue'
+export {
+    default as SkeletonHeader,
+    type SkeletonHeaderProps,
+} from './SkeletonHeader.vue'
+export {
+    default as SkeletonLine,
+    type SkeletonLineProps,
+} from './SkeletonLine.vue'
+export {
+    default as SkeletonList,
+    type SkeletonListProps,
+} from './SkeletonList.vue'

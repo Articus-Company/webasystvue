@@ -68,11 +68,26 @@ export const tableHeadVariants = cva('', {
 
 export type TableHeadVariants = VariantProps<typeof tableHeadVariants>
 
-export { default as Table } from './Table.vue'
+export {
+    default as Table,
+    type TableProps,
+} from './Table.vue'
 export { default as TableBody } from './TableBody.vue'
 export { default as TableCaption } from './TableCaption.vue'
-export { default as TableCell } from './TableCell.vue'
-export { default as TableHead } from './TableHead.vue'
+export {
+    default as TableCell,
+    type TableCellProps,
+} from './TableCell.vue'
+export {
+    default as TableHead,
+    type TableHeadProps,
+} from './TableHead.vue'
 export { default as TableHeader } from './TableHeader.vue'
-export { default as TableRow } from './TableRow.vue'
-export { default as TableScrollableX } from './TableScrollableX.vue'
+export {
+    default as TableRow,
+    type TableRowProps,
+} from './TableRow.vue'
+export {
+    default as TableScrollableX,
+    type TableScrollableXProps,
+} from './TableScrollableX.vue'

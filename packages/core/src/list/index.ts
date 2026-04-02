@@ -12,7 +12,19 @@ export const listItemVariants = cva('item', {
 
 export type ListItemVariants = VariantProps<typeof listItemVariants>
 
-export { default as List } from './List.vue'
-export { default as ListItem } from './ListItem.vue'
-export { default as ListItemDetails } from './ListItemDetails.vue'
-export { default as ListItemImage } from './ListItemImage.vue'
+export {
+    default as List,
+    type ListProps,
+} from './List.vue'
+export {
+    default as ListItem,
+    type ListItemProps,
+} from './ListItem.vue'
+export {
+    default as ListItemDetails,
+    type ListItemDetailsProps,
+} from './ListItemDetails.vue'
+export {
+    default as ListItemImage,
+    type ListItemImageProps,
+} from './ListItemImage.vue'
