@@ -10,7 +10,7 @@
 <script lang="ts">
 import type { HTMLAttributes } from 'vue'
 
-export interface TableCellProps {
+export interface TableRowProps {
     class?: HTMLAttributes['class']
     selected?: boolean
 }
@@ -21,7 +21,7 @@ import { reactiveOmit } from '@vueuse/core'
 import { clsx } from 'clsx'
 import { tableRowVariants } from '.'
 
-const props = defineProps<TableCellProps>()
+const props = defineProps<TableRowProps>()
 
 const delegatedProps = reactiveOmit(
     props,

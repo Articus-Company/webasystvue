@@ -11,7 +11,7 @@
 import type { HTMLAttributes } from 'vue'
 import type { TabsArrowWrapperVariants } from '.'
 
-export interface TabsWrapperArrowsProps {
+export interface TabsArrowWrapperProps {
     class?: HTMLAttributes['class']
     space?: TabsArrowWrapperVariants['space']
     inlinebox?: boolean
@@ -25,7 +25,7 @@ import { reactiveOmit } from '@vueuse/core'
 import { clsx } from 'clsx'
 import { tabsArrowWrapperVariants } from '.'
 
-const props = withDefaults(defineProps<TabsWrapperArrowsProps>(), {
+const props = withDefaults(defineProps<TabsArrowWrapperProps>(), {
     space: '8',
     inlinebox: true,
 })
