@@ -2,238 +2,266 @@
     <Story title="Chips/Demo">
         <Variant title="default">
             <Chips>
-                <ChipsItem>
-                    <a href="javascript:void(0);">
+                <ChipsSection>
+                    <ChipsItem>
                         ⭐ Москва
-                        <span class="count">495 🔒</span>
-                    </a>
-                </ChipsItem>
-                <ChipsItem accented>
-                    <a href="javascript:void(0);">
+                        <ChipsItemCount>
+                            495 🔒
+                        </ChipsItemCount>
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection accented>
+                    <ChipsItem>
                         🗻 Сочи
-                    </a>
-                </ChipsItem>
-                <ChipsItem class="desktop-and-tablet-only">
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection class="desktop-and-tablet-only">
+                    <ChipsItem>
                         💖 Санкт-Петербург
-                        <span class="count">New!</span>
-                    </a>
-                </ChipsItem>
-                <ChipsItem>
-                    <a href="javascript:void(0);">
+                        <ChipsItemCount>
+                            New!
+                        </ChipsItemCount>
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection>
+                    <ChipsItem>
                         Токио 🗼
-                    </a>
-                </ChipsItem>
-                <ChipsItem>
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection>
+                    <ChipsItem>
                         <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Regional_Emblem_of_Hong_Kong.svg/2560px-Regional_Emblem_of_Hong_Kong.svg.png"
                             alt="Гонконг"
                         >
                         Гонконг
-                    </a>
-                </ChipsItem>
-                <ChipsItem outlined>
-                    <a href="javascript:void(0);">
-                        Шанхай <span class="count">🔒</span>
-                    </a>
-                </ChipsItem>
-                <ChipsItem>
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection outlined>
+                    <ChipsItem>
+                        Шанхай
+                        <ChipsItemCount>
+                            🔒
+                        </ChipsItemCount>
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection>
+                    <ChipsItem>
                         Сидней
-                        <span class="count">31000222</span>
-                    </a>
-                </ChipsItem>
-                <ChipsItem class="selected">
-                    <a href="javascript:void(0);">
+                        <ChipsItemCount>
+                            31000222
+                        </ChipsItemCount>
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection class="selected">
+                    <ChipsItem>
                         Лима
-                    </a>
-                </ChipsItem>
-                <ChipsItem
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection
                     class="desktop-and-tablet-only"
                     rounded
                 >
-                    <a href="javascript:void(0);">
+                    <ChipsItem>
                         Сан-Франциско 🌁
-                    </a>
-                </ChipsItem>
-                <ChipsItem transparent>
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection transparent>
+                    <ChipsItem>
                         🌳 Парамарибо
-                    </a>
-                </ChipsItem>
-                <ChipsItem
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection
                     tag
                     selected
                 >
-                    <a href="javascript:void(0);">
+                    <ChipsItem>
                         ＃ webasyst2
-                    </a>
-                </ChipsItem>
-                <ChipsItem tag>
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection tag>
+                    <ChipsItem>
                         ＃ ui
-                    </a>
-                </ChipsItem>
+                    </ChipsItem>
+                </ChipsSection>
             </Chips>
         </Variant>
         <Variant title="tags">
             <Chips tags>
-                <ChipsItem>
-                    <a href="javascript:void(0);">
+                <ChipsSection>
+                    <ChipsItem>
                         ⭐ Москва
-                        <span class="count">495 🔒</span>
-                    </a>
-                </ChipsItem>
-                <ChipsItem accented>
-                    <a href="javascript:void(0);">
+                        <ChipsItemCount>
+                            495 🔒
+                        </ChipsItemCount>
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection accented>
+                    <ChipsItem>
                         🗻 Сочи
-                    </a>
-                </ChipsItem>
-                <ChipsItem class="desktop-and-tablet-only">
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection class="desktop-and-tablet-only">
+                    <ChipsItem>
                         💖 Санкт-Петербург
-                        <span class="count">New!</span>
-                    </a>
-                </ChipsItem>
-                <ChipsItem>
-                    <a href="javascript:void(0);">
+                        <ChipsItemCount>
+                            New!
+                        </ChipsItemCount>
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection>
+                    <ChipsItem>
                         Токио 🗼
-                    </a>
-                </ChipsItem>
-                <ChipsItem>
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection>
+                    <ChipsItem>
                         <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Regional_Emblem_of_Hong_Kong.svg/2560px-Regional_Emblem_of_Hong_Kong.svg.png"
                             alt="Гонконг"
                         >
                         Гонконг
-                    </a>
-                </ChipsItem>
-                <ChipsItem outlined>
-                    <a href="javascript:void(0);">
-                        Шанхай <span class="count">🔒</span>
-                    </a>
-                </ChipsItem>
-                <ChipsItem>
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection outlined>
+                    <ChipsItem>
+                        Шанхай
+                        <ChipsItemCount>
+                            🔒
+                        </ChipsItemCount>
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection>
+                    <ChipsItem>
                         Сидней
-                        <span class="count">31000222</span>
-                    </a>
-                </ChipsItem>
-                <ChipsItem class="selected">
-                    <a href="javascript:void(0);">
+                        <ChipsItemCount>
+                            31000222
+                        </ChipsItemCount>
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection class="selected">
+                    <ChipsItem>
                         Лима
-                    </a>
-                </ChipsItem>
-                <ChipsItem
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection
                     class="desktop-and-tablet-only"
                     rounded
                 >
-                    <a href="javascript:void(0);">
+                    <ChipsItem>
                         Сан-Франциско 🌁
-                    </a>
-                </ChipsItem>
-                <ChipsItem transparent>
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection transparent>
+                    <ChipsItem>
                         🌳 Парамарибо
-                    </a>
-                </ChipsItem>
-                <ChipsItem
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection
                     tag
                     selected
                 >
-                    <a href="javascript:void(0);">
+                    <ChipsItem>
                         ＃ webasyst2
-                    </a>
-                </ChipsItem>
-                <ChipsItem tag>
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection tag>
+                    <ChipsItem>
                         ＃ ui
-                    </a>
-                </ChipsItem>
+                    </ChipsItem>
+                </ChipsSection>
             </Chips>
         </Variant>
         <Variant title="sized">
             <Chips size="largest">
-                <ChipsItem>
-                    <a href="javascript:void(0);">
+                <ChipsSection>
+                    <ChipsItem>
                         ⭐ Москва
-                        <span class="count">495 🔒</span>
-                    </a>
-                </ChipsItem>
-                <ChipsItem accented>
-                    <a href="javascript:void(0);">
+                        <ChipsItemCount>
+                            495 🔒
+                        </ChipsItemCount>
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection accented>
+                    <ChipsItem>
                         🗻 Сочи
-                    </a>
-                </ChipsItem>
-                <ChipsItem class="desktop-and-tablet-only">
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection class="desktop-and-tablet-only">
+                    <ChipsItem>
                         💖 Санкт-Петербург
-                        <span class="count">New!</span>
-                    </a>
-                </ChipsItem>
-                <ChipsItem>
-                    <a href="javascript:void(0);">
+                        <ChipsItemCount>
+                            New!
+                        </ChipsItemCount>
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection>
+                    <ChipsItem>
                         Токио 🗼
-                    </a>
-                </ChipsItem>
-                <ChipsItem>
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection>
+                    <ChipsItem>
                         <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Regional_Emblem_of_Hong_Kong.svg/2560px-Regional_Emblem_of_Hong_Kong.svg.png"
                             alt="Гонконг"
                         >
                         Гонконг
-                    </a>
-                </ChipsItem>
-                <ChipsItem outlined>
-                    <a href="javascript:void(0);">
-                        Шанхай <span class="count">🔒</span>
-                    </a>
-                </ChipsItem>
-                <ChipsItem>
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection outlined>
+                    <ChipsItem>
+                        Шанхай
+                        <ChipsItemCount>
+                            🔒
+                        </ChipsItemCount>
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection>
+                    <ChipsItem>
                         Сидней
-                        <span class="count">31000222</span>
-                    </a>
-                </ChipsItem>
-                <ChipsItem class="selected">
-                    <a href="javascript:void(0);">
+                        <ChipsItemCount>
+                            31000222
+                        </ChipsItemCount>
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection class="selected">
+                    <ChipsItem>
                         Лима
-                    </a>
-                </ChipsItem>
-                <ChipsItem
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection
                     class="desktop-and-tablet-only"
                     rounded
                 >
-                    <a href="javascript:void(0);">
+                    <ChipsItem>
                         Сан-Франциско 🌁
-                    </a>
-                </ChipsItem>
-                <ChipsItem transparent>
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection transparent>
+                    <ChipsItem>
                         🌳 Парамарибо
-                    </a>
-                </ChipsItem>
-                <ChipsItem
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection
                     tag
                     selected
                 >
-                    <a href="javascript:void(0);">
+                    <ChipsItem>
                         ＃ webasyst2
-                    </a>
-                </ChipsItem>
-                <ChipsItem tag>
-                    <a href="javascript:void(0);">
+                    </ChipsItem>
+                </ChipsSection>
+                <ChipsSection tag>
+                    <ChipsItem>
                         ＃ ui
-                    </a>
-                </ChipsItem>
+                    </ChipsItem>
+                </ChipsSection>
             </Chips>
         </Variant>
     </Story>
 </template>
 
 <script setup lang="ts">
-import { Chips, ChipsItem } from '@/chips'
+import { Chips, ChipsItem, ChipsSection } from '@/chips'
+import ChipsItemCount from '@/chips/ChipsItemCount.vue'
 </script>
