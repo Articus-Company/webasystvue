@@ -12,5 +12,11 @@ export const bannerVariants = cva('banner', {
 
 export type BannerVariants = VariantProps<typeof bannerVariants>
 
-export { default as Banner } from './Banner.vue'
-export { default as BannerClose } from './BannerClose.vue'
+export {
+    default as Banner,
+    type BannerProps,
+} from './Banner.vue'
+export {
+    default as BannerClose,
+    type BannerCloseProps,
+} from './BannerClose.vue'

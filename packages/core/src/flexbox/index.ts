@@ -27,4 +27,7 @@ export const flexboxVariants = cva('flexbox', {
 
 export type FlexboxVariants = VariantProps<typeof flexboxVariants>
 
-export { default as Flexbox } from './Flexbox.vue'
+export {
+    default as Flexbox,
+    type FlexboxProps,
+} from './Flexbox.vue'

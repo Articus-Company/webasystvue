@@ -25,6 +25,15 @@ export const headingItemVariants = cva('', {
 
 export type HeadingItemVariants = VariantProps<typeof headingItemVariants>
 
-export { default as Heading } from './Heading.vue'
-export { default as HeadingCaret } from './HeadingCaret.vue'
-export { default as HeadingItem } from './HeadingItem.vue'
+export {
+    default as Heading,
+    type HeadingProps,
+} from './Heading.vue'
+export {
+    default as HeadingCaret,
+    type HeadingCaretProps,
+} from './HeadingCaret.vue'
+export {
+    default as HeadingItem,
+    type HeadingItemProps,
+} from './HeadingItem.vue'

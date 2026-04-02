@@ -23,5 +23,11 @@ export const userpicVariants = cva('userpic', {
 
 export type UserpicVariants = VariantProps<typeof userpicVariants>
 
-export { default as Userpic } from './Userpic.vue'
-export { default as UserpicStatus } from './UserpicStatus.vue'
+export {
+    default as Userpic,
+    type UserpicProps,
+} from './Userpic.vue'
+export {
+    default as UserpicStatus,
+    type UserpicStatusProps,
+} from './UserpicStatus.vue'

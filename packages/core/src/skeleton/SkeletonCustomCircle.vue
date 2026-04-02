@@ -12,7 +12,7 @@ import type { PrimitiveProps } from 'reka-ui'
 import type { HTMLAttributes } from 'vue'
 import type { SkeletonCustomCircleVariants } from '.'
 
-export interface SkeletonProps extends PrimitiveProps {
+export interface SkeletonCustomCircleProps extends PrimitiveProps {
     class?: HTMLAttributes['class']
     size?: SkeletonCustomCircleVariants['size']
 }
@@ -24,7 +24,7 @@ import { clsx } from 'clsx'
 import { Primitive } from 'reka-ui'
 import { skeletonCustomCircleVariants } from '.'
 
-const props = defineProps<SkeletonProps>()
+const props = defineProps<SkeletonCustomCircleProps>()
 
 const delegatedProps = reactiveOmit(props, 'class')
 </script>

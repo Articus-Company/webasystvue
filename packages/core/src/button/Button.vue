@@ -22,7 +22,7 @@ import type { PrimitiveProps } from 'reka-ui'
 import type { HTMLAttributes } from 'vue'
 import type { ButtonVariants } from '.'
 
-export interface BadgeProps extends PrimitiveProps {
+export interface ButtonProps extends PrimitiveProps {
     class?: HTMLAttributes['class']
     color?: ButtonVariants['color']
     size?: ButtonVariants['size']
@@ -42,7 +42,7 @@ import { clsx } from 'clsx'
 import { Primitive } from 'reka-ui'
 import { buttonVariants } from '.'
 
-const props = withDefaults(defineProps<BadgeProps>(), {
+const props = withDefaults(defineProps<ButtonProps>(), {
     as: 'button',
 })
 

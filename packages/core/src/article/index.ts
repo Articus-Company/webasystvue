@@ -38,7 +38,19 @@ export const articleFooterVariants = cva('article-footer', {
 
 export type ArticleFooterVariants = VariantProps<typeof articleFooterVariants>
 
-export { default as Article } from './Article.vue'
-export { default as ArticleBody } from './ArticleBody.vue'
-export { default as ArticleFooter } from './ArticleFooter.vue'
-export { default as ArticleHeader } from './ArticleHeader.vue'
+export {
+    default as Article,
+    type ArticleProps,
+} from './Article.vue'
+export {
+    default as ArticleBody,
+    type ArticleBodyProps,
+} from './ArticleBody.vue'
+export {
+    default as ArticleFooter,
+    type ArticleFooterProps,
+} from './ArticleFooter.vue'
+export {
+    default as ArticleHeader,
+    type ArticleHeaderProps,
+} from './ArticleHeader.vue'

@@ -36,6 +36,15 @@ export const alertFixedBoxVariants = cva('alert-fixed-box', {
 
 export type AlertFixedBoxVariants = VariantProps<typeof alertFixedBoxVariants>
 
-export { default as Alert } from './Alert.vue'
-export { default as AlertClose } from './AlertClose.vue'
-export { default as AlertFixedBox } from './AlertFixedBox.vue'
+export {
+    default as Alert,
+    type AlertProps,
+} from './Alert.vue'
+export {
+    default as AlertClose,
+    type AlertCloseProps,
+} from './AlertClose.vue'
+export {
+    default as AlertFixedBox,
+    type AlertFixedBoxProps,
+} from './AlertFixedBox.vue'

@@ -16,7 +16,19 @@ export const bricksItemVariants = cva('brick', {
 
 export type BricksItemVariants = VariantProps<typeof bricksItemVariants>
 
-export { default as Bricks } from './Bricks.vue'
-export { default as BricksItem } from './BricksItem.vue'
-export { default as BricksItemCount } from './BricksItemCount.vue'
-export { default as BricksItemIcon } from './BricksItemIcon.vue'
+export {
+    default as Bricks,
+    type BricksProps,
+} from './Bricks.vue'
+export {
+    default as BricksItem,
+    type BricksItemProps,
+} from './BricksItem.vue'
+export {
+    default as BricksItemCount,
+    type BricksItemCountProps,
+} from './BricksItemCount.vue'
+export {
+    default as BricksItemIcon,
+    type BricksItemIconProps,
+} from './BricksItemIcon.vue'

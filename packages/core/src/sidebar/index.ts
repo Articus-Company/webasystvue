@@ -49,7 +49,19 @@ export const sidebarVariants = cva('sidebar', {
 
 export type SidebarVariants = VariantProps<typeof sidebarVariants>
 
-export { default as Sidebar } from './Sidebar.vue'
-export { default as SidebarBody } from './SidebarBody.vue'
-export { default as SidebarFooter } from './SidebarFooter.vue'
-export { default as SidebarHeader } from './SidebarHeader.vue'
+export {
+    default as Sidebar,
+    type SidebarProps,
+} from './Sidebar.vue'
+export {
+    default as SidebarBody,
+    type SidebarBodyProps,
+} from './SidebarBody.vue'
+export {
+    default as SidebarFooter,
+    type SidebarFooterProps,
+} from './SidebarFooter.vue'
+export {
+    default as SidebarHeader,
+    type SidebarHeaderProps,
+} from './SidebarHeader.vue'

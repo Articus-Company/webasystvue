@@ -44,7 +44,19 @@ export const chipsSectionVariants = cva('', {
 
 export type ChipsSectionVariants = VariantProps<typeof chipsSectionVariants>
 
-export { default as Chips } from './Chips.vue'
-export { default as ChipsItem } from './ChipsItem.vue'
-export { default as ChipsItemCount } from './ChipsItemCount.vue'
-export { default as ChipsSection } from './ChipsSection.vue'
+export {
+    default as Chips,
+    type ChipsProps,
+} from './Chips.vue'
+export {
+    default as ChipsItem,
+    type ChipsItemProps,
+} from './ChipsItem.vue'
+export {
+    default as ChipsItemCount,
+    type ChipsItemCountProps,
+} from './ChipsItemCount.vue'
+export {
+    default as ChipsSection,
+    type ChipsSectionProps,
+} from './ChipsSection.vue'

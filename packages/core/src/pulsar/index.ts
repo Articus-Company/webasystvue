@@ -1,1 +1,4 @@
-export { default as Pulsar } from './Pulsar.vue'
+export {
+    default as Pulsar,
+    type PulsarProps,
+} from './Pulsar.vue'

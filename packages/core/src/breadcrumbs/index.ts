@@ -12,6 +12,15 @@ export const breadcrumbsSectionVariants = cva('', {
 
 export type BreadcrumbsSectionVariants = VariantProps<typeof breadcrumbsSectionVariants>
 
-export { default as Breadcrumbs } from './Breadcrumbs.vue'
-export { default as BreadcrumbsItem } from './BreadcrumbsItem.vue'
-export { default as BreadcrumbsSection } from './BreadcrumbsSection.vue'
+export {
+    default as Breadcrumbs,
+    type BreadcrumbsProps,
+} from './Breadcrumbs.vue'
+export {
+    default as BreadcrumbsItem,
+    type BreadcrumbsItemProps,
+} from './BreadcrumbsItem.vue'
+export {
+    default as BreadcrumbsSection,
+    type BreadcrumbsSectionProps,
+} from './BreadcrumbsSection.vue'

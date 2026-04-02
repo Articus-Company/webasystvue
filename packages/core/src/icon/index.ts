@@ -56,4 +56,7 @@ export const iconVariants = cva('icon', {
 
 export type IconVariants = VariantProps<typeof iconVariants>
 
-export { default as Icon } from './Icon.vue'
+export {
+    default as Icon,
+    type IconProps,
+} from './Icon.vue'

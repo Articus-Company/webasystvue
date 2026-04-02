@@ -12,5 +12,11 @@ export const pagingItemVariants = cva('', {
 
 export type PagingItemVariants = VariantProps<typeof pagingItemVariants>
 
-export { default as Paging } from './Paging.vue'
-export { default as PagingItem } from './PagingItem.vue'
+export {
+    default as Paging,
+    type PagingProps,
+} from './Paging.vue'
+export {
+    default as PagingItem,
+    type PagingItemProps,
+} from './PagingItem.vue'

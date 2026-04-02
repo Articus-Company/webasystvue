@@ -10,7 +10,7 @@
 <script lang="ts">
 import type { HTMLAttributes } from 'vue'
 
-export interface TabsProps {
+export interface TabsSectionProps {
     class?: HTMLAttributes['class']
     selected?: boolean
 }
@@ -21,7 +21,7 @@ import { reactiveOmit } from '@vueuse/core'
 import { clsx } from 'clsx'
 import { tabsSectionVariants } from '.'
 
-const props = defineProps<TabsProps>()
+const props = defineProps<TabsSectionProps>()
 
 const delegatedProps = reactiveOmit(
     props,

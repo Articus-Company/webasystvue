@@ -37,6 +37,15 @@ export const thumbsItemVariants = cva('', {
 
 export type ThumbsItemVariants = VariantProps<typeof thumbsItemVariants>
 
-export { default as Thumbs } from './Thumbs.vue'
-export { default as ThumbsItem } from './ThumbsItem.vue'
-export { default as ThumbsItemImage } from './ThumbsItemImage.vue'
+export {
+    default as Thumbs,
+    type ThumbsProps,
+} from './Thumbs.vue'
+export {
+    default as ThumbsItem,
+    type ThumbsItemProps,
+} from './ThumbsItem.vue'
+export {
+    default as ThumbsItemImage,
+    type ThumbsItemImageProps,
+} from './ThumbsItemImage.vue'

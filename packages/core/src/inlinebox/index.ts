@@ -17,4 +17,7 @@ export const inlineboxVariants = cva('inlinebox', {
 
 export type InlineboxVariants = VariantProps<typeof inlineboxVariants>
 
-export { default as Inlinebox } from './Inlinebox.vue'
+export {
+    default as Inlinebox,
+    type InlineboxProps,
+} from './Inlinebox.vue'
