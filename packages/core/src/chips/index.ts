@@ -21,7 +21,7 @@ export const chipsVariants = cva('chips', {
 
 export type ChipsVariants = VariantProps<typeof chipsVariants>
 
-export const chipsItemVariants = cva('', {
+export const chipsSectionVariants = cva('', {
     variants: {
         size: sizes,
         outlined: { true: 'outlined', false: undefined },
@@ -42,7 +42,8 @@ export const chipsItemVariants = cva('', {
     },
 })
 
-export type ChipsItemVariants = VariantProps<typeof chipsItemVariants>
+export type ChipsSectionVariants = VariantProps<typeof chipsSectionVariants>
 
 export { default as Chips } from './Chips.vue'
 export { default as ChipsItem } from './ChipsItem.vue'
+export { default as ChipsSection } from './ChipsSection.vue'
