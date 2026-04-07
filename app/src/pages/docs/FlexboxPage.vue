@@ -162,7 +162,7 @@
 
                 <DemoCard
                     :code="flexboxWrapExampleRaw"
-                    highlight-lines="{4}"
+                    highlight-lines="{5}"
                 >
                     <FlexboxWrapExample/>
                 </DemoCard>
