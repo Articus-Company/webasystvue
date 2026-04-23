@@ -37,7 +37,11 @@
         <Variant title="caret">
             <Heading>
                 <HeadingItem>
-                    <HeadingCaret>▼</HeadingCaret>
+                    <HeadingCaretWrapper>
+                        <HeadingCaret>
+                            <i class="fas fa-caret-down"/>
+                        </HeadingCaret>
+                    </HeadingCaretWrapper>
                     Заголовок меню с длинным-предлинным текстом, который на одну строку не влезет
                     хоть ты тресни
                 </HeadingItem>
@@ -59,5 +63,5 @@
 </template>
 
 <script setup lang="ts">
-import { Heading, HeadingCaret, HeadingItem } from '@/heading'
+import { Heading, HeadingCaret, HeadingCaretWrapper, HeadingItem } from '@/heading'
 </script>

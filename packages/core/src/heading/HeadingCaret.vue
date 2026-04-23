@@ -22,7 +22,7 @@ import { clsx } from 'clsx'
 import { Primitive } from 'reka-ui'
 
 const props = withDefaults(defineProps<HeadingCaretProps>(), {
-    as: 'span',
+    as: 'a',
 })
 
 const delegatedProps = reactiveOmit(props, 'class')
