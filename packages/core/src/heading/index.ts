@@ -33,6 +33,7 @@ export {
     default as HeadingCaret,
     type HeadingCaretProps,
 } from './HeadingCaret.vue'
+export { default as HeadingCaretWrapper } from './HeadingCaretWrapper.vue'
 export {
     default as HeadingItem,
     type HeadingItemProps,
