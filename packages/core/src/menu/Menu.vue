@@ -1,16 +1,18 @@
 <template>
-    <ul
+    <Primitive
+        as="ul"
         :class="clsx(menuVariants({ ellipsis, breakWords, large, mobileFriendly }), props.class)"
         v-bind="delegatedProps"
     >
         <slot/>
-    </ul>
+    </Primitive>
 </template>
 
 <script lang="ts">
+import type { PrimitiveProps } from 'reka-ui'
 import type { HTMLAttributes } from 'vue'
 
-export interface MenuProps {
+export interface MenuProps extends Omit<PrimitiveProps, 'as'> {
     class?: HTMLAttributes['class']
     ellipsis?: boolean
     breakWords?: boolean
@@ -22,6 +24,7 @@ export interface MenuProps {
 <script setup lang="ts">
 import { reactiveOmit } from '@vueuse/core'
 import { clsx } from 'clsx'
+import { Primitive } from 'reka-ui'
 import { menuVariants } from '.'
 
 const props = defineProps<MenuProps>()
