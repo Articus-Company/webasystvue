@@ -326,10 +326,10 @@
                 >
             </Icon>
         </Variant>
-        <Variant title="align shift x">
+        <Variant title="align shift">
             <Icon
                 size="smallest"
-                shift-x="1"
+                shift="1"
             >
                 <img
                     src="https://demo1-ru.webasyst.com/wa-data/public/hub/categories/3/ipng.png"
@@ -338,7 +338,7 @@
             </Icon>
             <Icon
                 size="smaller"
-                shift-x="2"
+                shift="2"
             >
                 <img
                     src="https://demo1-ru.webasyst.com/wa-data/public/hub/categories/3/ipng.png"
@@ -347,7 +347,7 @@
             </Icon>
             <Icon
                 size="small"
-                shift-x="4"
+                shift="4"
             >
                 <img
                     src="https://demo1-ru.webasyst.com/wa-data/public/hub/categories/3/ipng.png"
@@ -356,7 +356,7 @@
             </Icon>
             <Icon
                 size="large"
-                shift-x="6"
+                shift="6"
             >
                 <img
                     src="https://demo1-ru.webasyst.com/wa-data/public/hub/categories/3/ipng.png"
@@ -365,7 +365,7 @@
             </Icon>
             <Icon
                 size="larger"
-                shift-x="8"
+                shift="8"
             >
                 <img
                     src="https://demo1-ru.webasyst.com/wa-data/public/hub/categories/3/ipng.png"
@@ -374,7 +374,7 @@
             </Icon>
             <Icon
                 size="largest"
-                shift-x="3"
+                shift="3"
             >
                 <img
                     src="https://demo1-ru.webasyst.com/wa-data/public/hub/categories/3/ipng.png"

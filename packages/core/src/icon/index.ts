@@ -38,7 +38,7 @@ const iconSizes = {
 export const iconVariants = cva('icon', {
     variants: {
         size: iconSizes,
-        shiftX: iconShift,
+        shift: iconShift,
         top: { true: 'top', false: undefined },
         baseline: { true: 'baseline', false: undefined },
         middle: { true: 'middle', false: undefined },
@@ -46,7 +46,7 @@ export const iconVariants = cva('icon', {
     },
     defaultVariants: {
         size: undefined,
-        shiftX: undefined,
+        shift: undefined,
         top: undefined,
         baseline: undefined,
         middle: undefined,
