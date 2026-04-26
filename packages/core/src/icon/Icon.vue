@@ -2,7 +2,7 @@
     <Primitive
         :class="clsx(iconVariants({
             size,
-            shiftX,
+            shift,
             top,
             baseline,
             middle,
@@ -22,7 +22,7 @@ import type { IconVariants } from '.'
 export interface IconProps extends PrimitiveProps {
     class?: HTMLAttributes['class']
     size?: IconVariants['size']
-    shiftX?: IconVariants['shiftX']
+    shift?: IconVariants['shift']
     top?: boolean
     baseline?: boolean
     middle?: boolean
@@ -42,7 +42,7 @@ const delegatedProps = reactiveOmit(
     props,
     'class',
     'size',
-    'shiftX',
+    'shift',
     'top',
     'baseline',
     'middle',
