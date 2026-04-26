@@ -4,17 +4,13 @@
             <Menu>
                 <MenuSection bottom-padded>
                     <MenuItem>
-                        <MenuItemIcon>
-                            ✚
-                        </MenuItemIcon>
+                        <i class="fas fa-plus"/>
                         <span>Создать</span>
                     </MenuItem>
                 </MenuSection>
                 <MenuSection>
                     <MenuItem>
-                        <MenuItemIcon>
-                            🏠︎
-                        </MenuItemIcon>
+                        <i class="fas fa-home"/>
                         <span>Главная</span>
                     </MenuItem>
                 </MenuSection>
@@ -26,25 +22,24 @@
                         <MenuItemCount>
                             5
                         </MenuItemCount>
-                        <MenuItemIcon>
-                            ✏️
-                        </MenuItemIcon>
+                        <span class="icon">✏️</span>
                         <span>Блог</span>
                     </MenuItem>
                     <Menu>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    👑
-                                </MenuItemIcon>
+                                <i
+                                    class="fas fa-crown"
+                                    style="color: gold"
+                                />
                                 <span>Hello</span>
                             </MenuItem>
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    <i style="background: orangered;"/>
-                                </MenuItemIcon>
+                                <span class="icon">
+                                    <i style="background: orangered"/>
+                                </span>
                                 <span>
                                     Custom icon
                                 </span>
@@ -52,54 +47,46 @@
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
+                                <span class="icon">
                                     <i
                                         class="rounded"
-                                        style="background: orangered;"
+                                        style="background: orangered"
                                     />
-                                </MenuItemIcon>
+                                </span>
                                 <span>Custom icon rounded</span>
                             </MenuItem>
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    🌎
-                                </MenuItemIcon>
+                                <i class="fas fa-globe"/>
                                 <span>World</span>
                             </MenuItem>
                             <Menu>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            📁
-                                        </MenuItemIcon>
+                                        <i class="fas fa-folder"/>
                                         <MenuItemCount action>
-                                            ⚔️
+                                            <i class="fas fa-plus-circle"/>
                                         </MenuItemCount>
                                         <span>Moscow</span>
                                     </MenuItem>
                                 </MenuSection>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            🌲
-                                        </MenuItemIcon>
+                                        <i class="fas fa-tree"/>
                                         <span>Sochi</span>
                                     </MenuItem>
                                 </MenuSection>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            ⛪
-                                        </MenuItemIcon>
+                                        <i class="fas fa-church"/>
                                         <MenuItemCount>
                                             13
                                         </MenuItemCount>
                                         <span>
                                             Saint-Petersburg
                                             <span class="hint">
-                                                👑
+                                                <i class="fas fa-crown"/>
                                             </span>
                                         </span>
                                     </MenuItem>
@@ -113,9 +100,9 @@
                         <MenuItemCount>
                             23
                         </MenuItemCount>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🪟
-                        </MenuItemIcon>
+                        </span>
                         <span>Сайт</span>
                     </MenuItem>
                 </MenuSection>
@@ -124,9 +111,7 @@
                         <MenuItemCount>
                             2
                         </MenuItemCount>
-                        <MenuItemIcon>
-                            #
-                        </MenuItemIcon>
+                        <i class="fas fa-hashtag"/>
                         <span>
                             .tag
                         </span>
@@ -137,9 +122,9 @@
                     rounded
                 >
                     <MenuItem>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🙍🏻‍♂️
-                        </MenuItemIcon>
+                        </span>
                         <span>
                             Василий
                             <span class="hint">
@@ -155,9 +140,9 @@
                                 5
                             </span>
                         </MenuItemCount>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🏢
-                        </MenuItemIcon>
+                        </span>
                         <span>
                             Компания
                             <span class="hint">
@@ -172,17 +157,13 @@
             <Menu large>
                 <MenuSection bottom-padded>
                     <MenuItem>
-                        <MenuItemIcon>
-                            ✚
-                        </MenuItemIcon>
+                        <i class="fas fa-plus"/>
                         <span>Создать</span>
                     </MenuItem>
                 </MenuSection>
                 <MenuSection>
                     <MenuItem>
-                        <MenuItemIcon>
-                            🏠︎
-                        </MenuItemIcon>
+                        <i class="fas fa-home"/>
                         <span>Главная</span>
                     </MenuItem>
                 </MenuSection>
@@ -194,25 +175,24 @@
                         <MenuItemCount>
                             5
                         </MenuItemCount>
-                        <MenuItemIcon>
-                            ✏️
-                        </MenuItemIcon>
+                        <span class="icon">✏️</span>
                         <span>Блог</span>
                     </MenuItem>
                     <Menu>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    👑
-                                </MenuItemIcon>
+                                <i
+                                    class="fas fa-crown"
+                                    style="color: gold"
+                                />
                                 <span>Hello</span>
                             </MenuItem>
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    <i style="background: orangered;"/>
-                                </MenuItemIcon>
+                                <span class="icon">
+                                    <i style="background: orangered"/>
+                                </span>
                                 <span>
                                     Custom icon
                                 </span>
@@ -220,54 +200,46 @@
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
+                                <span class="icon">
                                     <i
                                         class="rounded"
-                                        style="background: orangered;"
+                                        style="background: orangered"
                                     />
-                                </MenuItemIcon>
+                                </span>
                                 <span>Custom icon rounded</span>
                             </MenuItem>
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    🌎
-                                </MenuItemIcon>
+                                <i class="fas fa-globe"/>
                                 <span>World</span>
                             </MenuItem>
                             <Menu>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            📁
-                                        </MenuItemIcon>
+                                        <i class="fas fa-folder"/>
                                         <MenuItemCount action>
-                                            ⚔️
+                                            <i class="fas fa-plus-circle"/>
                                         </MenuItemCount>
                                         <span>Moscow</span>
                                     </MenuItem>
                                 </MenuSection>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            🌲
-                                        </MenuItemIcon>
+                                        <i class="fas fa-tree"/>
                                         <span>Sochi</span>
                                     </MenuItem>
                                 </MenuSection>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            ⛪
-                                        </MenuItemIcon>
+                                        <i class="fas fa-church"/>
                                         <MenuItemCount>
                                             13
                                         </MenuItemCount>
                                         <span>
                                             Saint-Petersburg
                                             <span class="hint">
-                                                👑
+                                                <i class="fas fa-crown"/>
                                             </span>
                                         </span>
                                     </MenuItem>
@@ -281,9 +253,9 @@
                         <MenuItemCount>
                             23
                         </MenuItemCount>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🪟
-                        </MenuItemIcon>
+                        </span>
                         <span>Сайт</span>
                     </MenuItem>
                 </MenuSection>
@@ -292,9 +264,7 @@
                         <MenuItemCount>
                             2
                         </MenuItemCount>
-                        <MenuItemIcon>
-                            #
-                        </MenuItemIcon>
+                        <i class="fas fa-hashtag"/>
                         <span>
                             .tag
                         </span>
@@ -305,9 +275,9 @@
                     rounded
                 >
                     <MenuItem>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🙍🏻‍♂️
-                        </MenuItemIcon>
+                        </span>
                         <span>
                             Василий
                             <span class="hint">
@@ -323,9 +293,9 @@
                                 5
                             </span>
                         </MenuItemCount>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🏢
-                        </MenuItemIcon>
+                        </span>
                         <span>
                             Компания
                             <span class="hint">
@@ -340,17 +310,13 @@
             <Menu mobile-friendly>
                 <MenuSection bottom-padded>
                     <MenuItem>
-                        <MenuItemIcon>
-                            ✚
-                        </MenuItemIcon>
+                        <i class="fas fa-plus"/>
                         <span>Создать</span>
                     </MenuItem>
                 </MenuSection>
                 <MenuSection>
                     <MenuItem>
-                        <MenuItemIcon>
-                            🏠︎
-                        </MenuItemIcon>
+                        <i class="fas fa-home"/>
                         <span>Главная</span>
                     </MenuItem>
                 </MenuSection>
@@ -362,25 +328,24 @@
                         <MenuItemCount>
                             5
                         </MenuItemCount>
-                        <MenuItemIcon>
-                            ✏️
-                        </MenuItemIcon>
+                        <span class="icon">✏️</span>
                         <span>Блог</span>
                     </MenuItem>
                     <Menu>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    👑
-                                </MenuItemIcon>
+                                <i
+                                    class="fas fa-crown"
+                                    style="color: gold"
+                                />
                                 <span>Hello</span>
                             </MenuItem>
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    <i style="background: orangered;"/>
-                                </MenuItemIcon>
+                                <span class="icon">
+                                    <i style="background: orangered"/>
+                                </span>
                                 <span>
                                     Custom icon
                                 </span>
@@ -388,54 +353,46 @@
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
+                                <span class="icon">
                                     <i
                                         class="rounded"
-                                        style="background: orangered;"
+                                        style="background: orangered"
                                     />
-                                </MenuItemIcon>
+                                </span>
                                 <span>Custom icon rounded</span>
                             </MenuItem>
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    🌎
-                                </MenuItemIcon>
+                                <i class="fas fa-globe"/>
                                 <span>World</span>
                             </MenuItem>
                             <Menu>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            📁
-                                        </MenuItemIcon>
+                                        <i class="fas fa-folder"/>
                                         <MenuItemCount action>
-                                            ⚔️
+                                            <i class="fas fa-plus-circle"/>
                                         </MenuItemCount>
                                         <span>Moscow</span>
                                     </MenuItem>
                                 </MenuSection>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            🌲
-                                        </MenuItemIcon>
+                                        <i class="fas fa-tree"/>
                                         <span>Sochi</span>
                                     </MenuItem>
                                 </MenuSection>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            ⛪
-                                        </MenuItemIcon>
+                                        <i class="fas fa-church"/>
                                         <MenuItemCount>
                                             13
                                         </MenuItemCount>
                                         <span>
                                             Saint-Petersburg
                                             <span class="hint">
-                                                👑
+                                                <i class="fas fa-crown"/>
                                             </span>
                                         </span>
                                     </MenuItem>
@@ -449,9 +406,9 @@
                         <MenuItemCount>
                             23
                         </MenuItemCount>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🪟
-                        </MenuItemIcon>
+                        </span>
                         <span>Сайт</span>
                     </MenuItem>
                 </MenuSection>
@@ -460,9 +417,7 @@
                         <MenuItemCount>
                             2
                         </MenuItemCount>
-                        <MenuItemIcon>
-                            #
-                        </MenuItemIcon>
+                        <i class="fas fa-hashtag"/>
                         <span>
                             .tag
                         </span>
@@ -473,9 +428,9 @@
                     rounded
                 >
                     <MenuItem>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🙍🏻‍♂️
-                        </MenuItemIcon>
+                        </span>
                         <span>
                             Василий
                             <span class="hint">
@@ -491,9 +446,9 @@
                                 5
                             </span>
                         </MenuItemCount>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🏢
-                        </MenuItemIcon>
+                        </span>
                         <span>
                             Компания
                             <span class="hint">
@@ -508,17 +463,13 @@
             <Menu ellipsis>
                 <MenuSection bottom-padded>
                     <MenuItem>
-                        <MenuItemIcon>
-                            ✚
-                        </MenuItemIcon>
+                        <i class="fas fa-plus"/>
                         <span>Создать</span>
                     </MenuItem>
                 </MenuSection>
                 <MenuSection>
                     <MenuItem>
-                        <MenuItemIcon>
-                            🏠︎
-                        </MenuItemIcon>
+                        <i class="fas fa-home"/>
                         <span>Главная</span>
                     </MenuItem>
                 </MenuSection>
@@ -530,25 +481,24 @@
                         <MenuItemCount>
                             5
                         </MenuItemCount>
-                        <MenuItemIcon>
-                            ✏️
-                        </MenuItemIcon>
+                        <span class="icon">✏️</span>
                         <span>Блог</span>
                     </MenuItem>
                     <Menu>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    👑
-                                </MenuItemIcon>
+                                <i
+                                    class="fas fa-crown"
+                                    style="color: gold"
+                                />
                                 <span>Hello</span>
                             </MenuItem>
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    <i style="background: orangered;"/>
-                                </MenuItemIcon>
+                                <span class="icon">
+                                    <i style="background: orangered"/>
+                                </span>
                                 <span>
                                     Custom icon
                                 </span>
@@ -556,54 +506,46 @@
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
+                                <span class="icon">
                                     <i
                                         class="rounded"
-                                        style="background: orangered;"
+                                        style="background: orangered"
                                     />
-                                </MenuItemIcon>
+                                </span>
                                 <span>Custom icon rounded</span>
                             </MenuItem>
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    🌎
-                                </MenuItemIcon>
+                                <i class="fas fa-globe"/>
                                 <span>World</span>
                             </MenuItem>
                             <Menu>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            📁
-                                        </MenuItemIcon>
+                                        <i class="fas fa-folder"/>
                                         <MenuItemCount action>
-                                            ⚔️
+                                            <i class="fas fa-plus-circle"/>
                                         </MenuItemCount>
                                         <span>Moscow</span>
                                     </MenuItem>
                                 </MenuSection>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            🌲
-                                        </MenuItemIcon>
+                                        <i class="fas fa-tree"/>
                                         <span>Sochi</span>
                                     </MenuItem>
                                 </MenuSection>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            ⛪
-                                        </MenuItemIcon>
+                                        <i class="fas fa-church"/>
                                         <MenuItemCount>
                                             13
                                         </MenuItemCount>
                                         <span>
                                             Saint-Petersburg
                                             <span class="hint">
-                                                👑
+                                                <i class="fas fa-crown"/>
                                             </span>
                                         </span>
                                     </MenuItem>
@@ -617,9 +559,9 @@
                         <MenuItemCount>
                             23
                         </MenuItemCount>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🪟
-                        </MenuItemIcon>
+                        </span>
                         <span>Сайт</span>
                     </MenuItem>
                 </MenuSection>
@@ -628,9 +570,7 @@
                         <MenuItemCount>
                             2
                         </MenuItemCount>
-                        <MenuItemIcon>
-                            #
-                        </MenuItemIcon>
+                        <i class="fas fa-hashtag"/>
                         <span>
                             .tag
                         </span>
@@ -641,9 +581,9 @@
                     rounded
                 >
                     <MenuItem>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🙍🏻‍♂️
-                        </MenuItemIcon>
+                        </span>
                         <span>
                             Василий
                             <span class="hint">
@@ -659,9 +599,9 @@
                                 5
                             </span>
                         </MenuItemCount>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🏢
-                        </MenuItemIcon>
+                        </span>
                         <span>
                             Компания
                             <span class="hint">
@@ -676,17 +616,13 @@
             <Menu break-words>
                 <MenuSection bottom-padded>
                     <MenuItem>
-                        <MenuItemIcon>
-                            ✚
-                        </MenuItemIcon>
+                        <i class="fas fa-plus"/>
                         <span>Создать</span>
                     </MenuItem>
                 </MenuSection>
                 <MenuSection>
                     <MenuItem>
-                        <MenuItemIcon>
-                            🏠︎
-                        </MenuItemIcon>
+                        <i class="fas fa-home"/>
                         <span>Главная</span>
                     </MenuItem>
                 </MenuSection>
@@ -698,25 +634,24 @@
                         <MenuItemCount>
                             5
                         </MenuItemCount>
-                        <MenuItemIcon>
-                            ✏️
-                        </MenuItemIcon>
+                        <span class="icon">✏️</span>
                         <span>Блог</span>
                     </MenuItem>
                     <Menu>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    👑
-                                </MenuItemIcon>
+                                <i
+                                    class="fas fa-crown"
+                                    style="color: gold"
+                                />
                                 <span>Hello</span>
                             </MenuItem>
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    <i style="background: orangered;"/>
-                                </MenuItemIcon>
+                                <span class="icon">
+                                    <i style="background: orangered"/>
+                                </span>
                                 <span>
                                     Custom icon
                                 </span>
@@ -724,54 +659,46 @@
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
+                                <span class="icon">
                                     <i
                                         class="rounded"
-                                        style="background: orangered;"
+                                        style="background: orangered"
                                     />
-                                </MenuItemIcon>
+                                </span>
                                 <span>Custom icon rounded</span>
                             </MenuItem>
                         </MenuSection>
                         <MenuSection>
                             <MenuItem>
-                                <MenuItemIcon>
-                                    🌎
-                                </MenuItemIcon>
+                                <i class="fas fa-globe"/>
                                 <span>World</span>
                             </MenuItem>
                             <Menu>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            📁
-                                        </MenuItemIcon>
+                                        <i class="fas fa-folder"/>
                                         <MenuItemCount action>
-                                            ⚔️
+                                            <i class="fas fa-plus-circle"/>
                                         </MenuItemCount>
                                         <span>Moscow</span>
                                     </MenuItem>
                                 </MenuSection>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            🌲
-                                        </MenuItemIcon>
+                                        <i class="fas fa-tree"/>
                                         <span>Sochi</span>
                                     </MenuItem>
                                 </MenuSection>
                                 <MenuSection>
                                     <MenuItem>
-                                        <MenuItemIcon>
-                                            ⛪
-                                        </MenuItemIcon>
+                                        <i class="fas fa-church"/>
                                         <MenuItemCount>
                                             13
                                         </MenuItemCount>
                                         <span>
                                             Saint-Petersburg
                                             <span class="hint">
-                                                👑
+                                                <i class="fas fa-crown"/>
                                             </span>
                                         </span>
                                     </MenuItem>
@@ -785,9 +712,9 @@
                         <MenuItemCount>
                             23
                         </MenuItemCount>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🪟
-                        </MenuItemIcon>
+                        </span>
                         <span>Сайт</span>
                     </MenuItem>
                 </MenuSection>
@@ -796,9 +723,7 @@
                         <MenuItemCount>
                             2
                         </MenuItemCount>
-                        <MenuItemIcon>
-                            #
-                        </MenuItemIcon>
+                        <i class="fas fa-hashtag"/>
                         <span>
                             .tag
                         </span>
@@ -809,9 +734,9 @@
                     rounded
                 >
                     <MenuItem>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🙍🏻‍♂️
-                        </MenuItemIcon>
+                        </span>
                         <span>
                             Василий
                             <span class="hint">
@@ -827,9 +752,9 @@
                                 5
                             </span>
                         </MenuItemCount>
-                        <MenuItemIcon>
+                        <span class="icon">
                             🏢
-                        </MenuItemIcon>
+                        </span>
                         <span>
                             Компания
                             <span class="hint">
@@ -844,5 +769,5 @@
 </template>
 
 <script setup lang="ts">
-import { Menu, MenuItem, MenuItemCount, MenuItemIcon, MenuSection } from '@/menu'
+import { Menu, MenuItem, MenuItemCount, MenuSection } from '@/menu'
 </script>

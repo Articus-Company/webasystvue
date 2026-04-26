@@ -61,10 +61,6 @@ export {
     type MenuItemCountProps,
 } from './MenuItemCount.vue'
 export {
-    default as MenuItemIcon,
-    type MenuItemIconProps,
-} from './MenuItemIcon.vue'
-export {
     default as MenuSection,
     type MenuSectionProps,
 } from './MenuSection.vue'
