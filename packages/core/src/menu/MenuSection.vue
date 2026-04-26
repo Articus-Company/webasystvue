@@ -1,16 +1,18 @@
 <template>
-    <li
+    <Primitive
+        as="li"
         :class="clsx(menuSectionVariants({ selected, accented, rounded, topPadded, bottomPadded }), props.class)"
         v-bind="delegatedProps"
     >
         <slot/>
-    </li>
+    </Primitive>
 </template>
 
 <script lang="ts">
+import type { PrimitiveProps } from 'reka-ui'
 import type { HTMLAttributes } from 'vue'
 
-export interface MenuSectionProps {
+export interface MenuSectionProps extends Omit<PrimitiveProps, 'as'> {
     class?: HTMLAttributes['class']
     selected?: boolean
     accented?: boolean
@@ -23,6 +25,7 @@ export interface MenuSectionProps {
 <script setup lang="ts">
 import { reactiveOmit } from '@vueuse/core'
 import { clsx } from 'clsx'
+import { Primitive } from 'reka-ui'
 import { menuSectionVariants } from '.'
 
 const props = defineProps<MenuSectionProps>()
