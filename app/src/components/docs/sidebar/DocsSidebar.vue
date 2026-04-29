@@ -180,6 +180,10 @@ const routes = [
         routeName: 'docs-paging',
     },
     {
+        name: 'Pulsar',
+        routeName: 'docs-pulsar',
+    },
+    {
         name: 'Sidebar',
         routeName: 'docs-sidebar',
     },

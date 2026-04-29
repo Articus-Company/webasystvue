@@ -21,6 +21,7 @@ import {
     ListPage,
     MenuPage,
     PagingPage,
+    PulsarPage,
     SidebarPage,
     SpinnerPage,
     TableboxPage,
@@ -144,6 +145,11 @@ const router = createRouter({
                     path: 'paging',
                     component: PagingPage,
                     name: 'docs-paging',
+                },
+                {
+                    path: 'pulsar',
+                    component: PulsarPage,
+                    name: 'docs-pulsar',
                 },
                 {
                     path: 'sidebar',
