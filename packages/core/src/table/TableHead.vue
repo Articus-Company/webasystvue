@@ -1,5 +1,6 @@
 <template>
-    <th
+    <Primitive
+        as="th"
         :class="clsx(tableHeadVariants({
             align,
             verticalAlign,
@@ -9,14 +10,15 @@
         v-bind="delegatedProps"
     >
         <slot/>
-    </th>
+    </Primitive>
 </template>
 
 <script lang="ts">
+import type { PrimitiveProps } from 'reka-ui'
 import type { HTMLAttributes } from 'vue'
 import type { TableHeadVariants } from '@/table/index.ts'
 
-export interface TableHeadProps {
+export interface TableHeadProps extends Omit<PrimitiveProps, 'as'> {
     class?: HTMLAttributes['class']
     align?: TableHeadVariants['align']
     verticalAlign?: TableHeadVariants['verticalAlign']
@@ -28,6 +30,7 @@ export interface TableHeadProps {
 <script setup lang="ts">
 import { reactiveOmit } from '@vueuse/core'
 import { clsx } from 'clsx'
+import { Primitive } from 'reka-ui'
 import { tableHeadVariants } from '.'
 
 const props = defineProps<TableHeadProps>()
