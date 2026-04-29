@@ -1,5 +1,6 @@
 <template>
-    <table
+    <Primitive
+        as="table"
         :class="clsx(tableVariants({
             size,
             bigdata,
@@ -11,14 +12,15 @@
         v-bind="delegatedProps"
     >
         <slot/>
-    </table>
+    </Primitive>
 </template>
 
 <script lang="ts">
+import type { PrimitiveProps } from 'reka-ui'
 import type { HTMLAttributes } from 'vue'
 import type { TableVariants } from '.'
 
-export interface TableProps {
+export interface TableProps extends Omit<PrimitiveProps, 'as'> {
     class?: HTMLAttributes['class']
     size?: TableVariants['size']
     bigdata?: boolean
@@ -32,6 +34,7 @@ export interface TableProps {
 <script setup lang="ts">
 import { reactiveOmit } from '@vueuse/core'
 import { clsx } from 'clsx'
+import { Primitive } from 'reka-ui'
 import { tableVariants } from '.'
 
 const props = defineProps<TableProps>()
