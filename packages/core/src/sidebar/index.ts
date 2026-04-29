@@ -65,3 +65,7 @@ export {
     default as SidebarHeader,
     type SidebarHeaderProps,
 } from './SidebarHeader.vue'
+export {
+    default as SidebarMobileToggle,
+    type SidebarMobileToggleProps,
+} from './SidebarMobileToggle.vue'
