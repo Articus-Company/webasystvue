@@ -12,7 +12,7 @@
 import type { PrimitiveProps } from 'reka-ui'
 import type { HTMLAttributes } from 'vue'
 
-export interface PulsarProps extends PrimitiveProps {
+export interface PulsarProps extends Omit<PrimitiveProps, 'asChild'> {
     class?: HTMLAttributes['class']
 }
 </script>
