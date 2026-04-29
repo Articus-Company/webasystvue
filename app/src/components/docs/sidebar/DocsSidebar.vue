@@ -188,6 +188,10 @@ const routes = [
         routeName: 'docs-sidebar',
     },
     {
+        name: 'Skeleton',
+        routeName: 'docs-skeleton',
+    },
+    {
         name: 'Spinner',
         routeName: 'docs-spinner',
     },

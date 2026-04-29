@@ -23,6 +23,7 @@ import {
     PagingPage,
     PulsarPage,
     SidebarPage,
+    SkeletonPage,
     SpinnerPage,
     TableboxPage,
     TablePage,
@@ -155,6 +156,11 @@ const router = createRouter({
                     path: 'sidebar',
                     component: SidebarPage,
                     name: 'docs-sidebar',
+                },
+                {
+                    path: 'skeleton',
+                    component: SkeletonPage,
+                    name: 'docs-skeleton',
                 },
                 {
                     path: 'spinner',
