@@ -1,0 +1,12 @@
+<template>
+    <Inlinebox space="32">
+        <div>Элемент 1</div>
+        <div>Элемент 2</div>
+        <div>Элемент 3</div>
+        <div>Элемент 4</div>
+    </Inlinebox>
+</template>
+
+<script setup lang="ts">
+import { Inlinebox } from 'webasystvue'
+</script>
