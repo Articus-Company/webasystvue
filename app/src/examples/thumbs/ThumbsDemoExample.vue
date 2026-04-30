@@ -1,0 +1,56 @@
+<template>
+    <Thumbs>
+        <ThumbsItem>
+            <ThumbsItemImage>
+                <img
+                    src="https://demo1-ru.webasyst.com/wa-data/public/photos/21/00/21/21.200x200.JPG"
+                    alt=""
+                >
+            </ThumbsItemImage>
+        </ThumbsItem>
+        <ThumbsItem>
+            <ThumbsItemImage>
+                <img
+                    src="https://demo1-ru.webasyst.com/wa-data/public/photos/19/00/19/19.200x200.JPG"
+                    alt=""
+                >
+            </ThumbsItemImage>
+        </ThumbsItem>
+        <ThumbsItem>
+            <ThumbsItemImage>
+                <img
+                    src="https://demo1-ru.webasyst.com/wa-data/public/photos/78/01/178/178.200x200.jpg"
+                    alt=""
+                >
+            </ThumbsItemImage>
+        </ThumbsItem>
+        <ThumbsItem>
+            <ThumbsItemImage>
+                <img
+                    src="https://demo1-ru.webasyst.com/wa-data/public/photos/20/00/20/20.200x200.JPG"
+                    alt=""
+                >
+            </ThumbsItemImage>
+        </ThumbsItem>
+        <ThumbsItem>
+            <ThumbsItemImage>
+                <img
+                    src="https://demo1-ru.webasyst.com/wa-data/public/photos/87/01/187/187.200x200.jpg"
+                    alt=""
+                >
+            </ThumbsItemImage>
+        </ThumbsItem>
+        <ThumbsItem>
+            <ThumbsItemImage>
+                <img
+                    src="https://demo1-ru.webasyst.com/wa-data/public/photos/15/00/15/15.200x200.JPG"
+                    alt=""
+                >
+            </ThumbsItemImage>
+        </ThumbsItem>
+    </Thumbs>
+</template>
+
+<script setup lang="ts">
+import { Thumbs, ThumbsItem, ThumbsItemImage } from 'webasystvue'
+</script>
