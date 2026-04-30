@@ -1,0 +1,5 @@
+export { default as UserpicAnatomyExample } from './UserpicAnatomyExample.vue'
+export { default as UserpicDemoExample } from './UserpicDemoExample.vue'
+export { default as UserpicOutlinedExample } from './UserpicOutlinedExample.vue'
+export { default as UserpicSizeExample } from './UserpicSizeExample.vue'
+export { default as UserpicStatusExample } from './UserpicStatusExample.vue'
