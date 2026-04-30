@@ -1,16 +1,18 @@
 <template>
-    <li
+    <Primitive
+        as="li"
         :class="clsx(tabsSectionVariants({ selected }), props.class)"
         v-bind="delegatedProps"
     >
         <slot/>
-    </li>
+    </Primitive>
 </template>
 
 <script lang="ts">
+import type { PrimitiveProps } from 'reka-ui'
 import type { HTMLAttributes } from 'vue'
 
-export interface TabsSectionProps {
+export interface TabsSectionProps extends Omit<PrimitiveProps, 'as'> {
     class?: HTMLAttributes['class']
     selected?: boolean
 }
@@ -19,6 +21,7 @@ export interface TabsSectionProps {
 <script setup lang="ts">
 import { reactiveOmit } from '@vueuse/core'
 import { clsx } from 'clsx'
+import { Primitive } from 'reka-ui'
 import { tabsSectionVariants } from '.'
 
 const props = defineProps<TabsSectionProps>()

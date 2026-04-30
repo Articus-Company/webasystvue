@@ -1,5 +1,6 @@
 <template>
-    <ul
+    <Primitive
+        as="ul"
         v-bind="delegatedProps"
         :class="clsx(tabsVariants({
             size,
@@ -9,14 +10,15 @@
         }), props.class)"
     >
         <slot/>
-    </ul>
+    </Primitive>
 </template>
 
 <script lang="ts">
+import type { PrimitiveProps } from 'reka-ui'
 import type { HTMLAttributes } from 'vue'
 import type { TabsVariants } from '.'
 
-export interface TabsProps {
+export interface TabsProps extends Omit<PrimitiveProps, 'as'> {
     class?: HTMLAttributes['class']
     size?: TabsVariants['size']
     borderedBottom?: boolean
@@ -28,6 +30,7 @@ export interface TabsProps {
 <script setup lang="ts">
 import { reactiveOmit } from '@vueuse/core'
 import { clsx } from 'clsx'
+import { Primitive } from 'reka-ui'
 import { tabsVariants } from '.'
 
 const props = defineProps<TabsProps>()
