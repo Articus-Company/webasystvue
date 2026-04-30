@@ -1,17 +1,19 @@
 <template>
-    <ul
+    <Primitive
+        as="ul"
         v-bind="delegatedProps"
         :class="clsx(thumbsVariants({ size }), props.class)"
     >
         <slot/>
-    </ul>
+    </Primitive>
 </template>
 
 <script lang="ts">
+import type { PrimitiveProps } from 'reka-ui'
 import type { HTMLAttributes } from 'vue'
 import type { ThumbsVariants } from '.'
 
-export interface ThumbsProps {
+export interface ThumbsProps extends Omit<PrimitiveProps, 'as'> {
     class?: HTMLAttributes['class']
     size?: ThumbsVariants['size']
 }
@@ -20,6 +22,7 @@ export interface ThumbsProps {
 <script setup lang="ts">
 import { reactiveOmit } from '@vueuse/core'
 import { clsx } from 'clsx'
+import { Primitive } from 'reka-ui'
 import { thumbsVariants } from '.'
 
 const props = defineProps<ThumbsProps>()
