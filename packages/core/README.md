@@ -18,6 +18,25 @@ npm install webasystvue
 yarn add webasystvue
 ```
 
-## Документация
+## Разработка
 
-Скоро
+### App (docs)
+```bash
+pnpm i
+cd app
+pnpm dev
+```
+
+### Package
+```bash
+pnpm i
+cd app
+pnpm dev
+```
+
+### Histoire
+```bash
+pnpm i
+cd .histoire
+pnpm story
+```
