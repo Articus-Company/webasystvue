@@ -9,10 +9,6 @@
                     Inlinebox
                 </DocHeading>
 
-                <DemoCard :code="inlineboxDemoExampleRaw">
-                    <InlineboxDemoExample/>
-                </DemoCard>
-
                 <DocHeading
                     id="anatomy"
                     tag="h2"
@@ -155,7 +151,6 @@ import { DemoCard } from '@/components/docs/demo-card'
 import { DocHeading } from '@/components/docs/doc-heading'
 import {
     InlineboxBaselineExample,
-    InlineboxDemoExample,
     InlineboxMiddleExample,
     InlineboxSimpleExample,
     InlineboxSpaceExample,
@@ -163,7 +158,6 @@ import {
 } from '@/examples/inlinebox'
 import inlineboxAnatomyExampleRaw from '@/examples/inlinebox/InlineboxAnatomyExample.vue?raw'
 import inlineboxBaselineExampleRaw from '@/examples/inlinebox/InlineboxBaselineExample.vue?raw'
-import inlineboxDemoExampleRaw from '@/examples/inlinebox/InlineboxDemoExample.vue?raw'
 import inlineboxMiddleExampleRaw from '@/examples/inlinebox/InlineboxMiddleExample.vue?raw'
 import inlineboxSimpleExampleRaw from '@/examples/inlinebox/InlineboxSimpleExample.vue?raw'
 import inlineboxSpaceExampleRaw from '@/examples/inlinebox/InlineboxSpaceExample.vue?raw'
