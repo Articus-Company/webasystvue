@@ -28,5 +28,5 @@ const colors = [
     'danger',
     'warning',
     'success',
-]
+] as const
 </script>

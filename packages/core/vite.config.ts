@@ -10,7 +10,8 @@ export default defineConfig({
         dts({
             tsconfigPath: 'tsconfig.build.json',
             exclude: ['src/**/story/**', 'src/**/*.story.vue'],
-            rollupTypes: true,
+            processor: 'vue',
+            bundleTypes: true,
         }),
     ],
     resolve: {

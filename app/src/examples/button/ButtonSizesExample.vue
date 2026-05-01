@@ -18,5 +18,5 @@ const sizes = [
     'large',
     'larger',
     'largest',
-]
+] as const
 </script>

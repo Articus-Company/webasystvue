@@ -121,7 +121,7 @@ function statusColor(status: string) {
         case 'Отменён':
             return 'gray'
         default:
-            return ''
+            return undefined
     }
 }
 </script>
