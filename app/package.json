@@ -15,23 +15,23 @@
     },
     "dependencies": {
         "@iconify/vue": "^5.0.0",
-        "@shikijs/langs": "^3.22.0",
-        "@shikijs/themes": "^3.22.0",
-        "@shikijs/transformers": "^3.22.0",
-        "@vueuse/core": "^14.2.1",
-        "shiki": "^3.22.0",
-        "vue": "^3.5.27",
-        "vue-router": "^4.6.4",
+        "@shikijs/langs": "^4.0.2",
+        "@shikijs/themes": "^4.0.2",
+        "@shikijs/transformers": "^4.0.2",
+        "@vueuse/core": "^14.3.0",
+        "shiki": "^4.0.2",
+        "vue": "^3.5.33",
+        "vue-router": "^5.0.6",
         "webasystvue": "link:../packages/core/"
     },
     "devDependencies": {
-        "@types/jquery": "^3.5.33",
+        "@types/jquery": "^4.0.0",
         "@types/node": "^24.10.9",
-        "@vitejs/plugin-vue": "^6.0.3",
-        "@vue/tsconfig": "^0.8.1",
-        "vite": "npm:rolldown-vite@latest",
-        "vite-plugin-vue-devtools": "^8.0.5",
+        "@vitejs/plugin-vue": "^6.0.6",
+        "@vue/tsconfig": "^0.9.1",
+        "vite": "^8.0.10",
+        "vite-plugin-vue-devtools": "^8.1.1",
         "vite-plugin-webasyst": "link:../packages/vite-plugin-webasyst",
-        "vue-tsc": "^3.2.4"
+        "vue-tsc": "^3.2.7"
     }
 }

@@ -3,9 +3,8 @@
     "compilerOptions": {
         "target": "esnext",
         "lib": ["esnext", "dom"],
-        "baseUrl": ".",
         "module": "esnext",
-        "moduleResolution": "node",
+        "moduleResolution": "bundler",
         "paths": {
             "@/*": ["./src/*"],
             "@lib/*": ["./lib/*"]

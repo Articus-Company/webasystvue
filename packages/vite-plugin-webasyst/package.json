@@ -22,11 +22,11 @@
     "devDependencies": {
         "@tsconfig/node22": "^22.0.5",
         "@types/node": "^22.18.11",
-        "tsdown": "^0.20.1",
-        "typescript": "~5.9.3",
-        "vite": "^7.3.1"
+        "tsdown": "^0.21.10",
+        "typescript": "~6.0.3",
+        "vite": "^8.0.10"
     },
     "peerDependencies": {
-        "vite": "^7.3.1"
+        "vite": "^8.0.10"
     }
 }
