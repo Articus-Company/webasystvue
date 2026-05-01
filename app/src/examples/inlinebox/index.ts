@@ -1,6 +1,5 @@
 export { default as InlineboxAnatomyExample } from './InlineboxAnatomyExample.vue'
 export { default as InlineboxBaselineExample } from './InlineboxBaselineExample.vue'
-export { default as InlineboxDemoExample } from './InlineboxDemoExample.vue'
 export { default as InlineboxMiddleExample } from './InlineboxMiddleExample.vue'
 export { default as InlineboxSimpleExample } from './InlineboxSimpleExample.vue'
 export { default as InlineboxSpaceExample } from './InlineboxSpaceExample.vue'
