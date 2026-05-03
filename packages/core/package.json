@@ -20,6 +20,12 @@
         "type": "git",
         "url": "git+https://github.com/Articus-Company/webasystvue.git"
     },
+    "keywords": [
+        "ui",
+        "vue",
+        "components",
+        "webasyst"
+    ],
     "module": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "files": [
