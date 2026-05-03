@@ -33,7 +33,7 @@ import {
 } from '@/pages/docs'
 
 const router = createRouter({
-    history: createWebHistory(import.meta.env.APP_URL),
+    history: createWebHistory(window.appUrl),
     routes: [
         {
             path: '/',
