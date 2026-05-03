@@ -2,6 +2,7 @@
     "name": "webasystvue",
     "type": "module",
     "version": "0.7.0",
+    "license": "MIT",
     "scripts": {
         "build": "npm run type-check && vite build",
         "build-only": "vite build",

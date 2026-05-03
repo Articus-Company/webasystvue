@@ -1,6 +1,7 @@
 {
     "name": "webasystvue",
     "version": "0.7.0",
+    "license": "MIT",
     "private": true,
     "workspaces": [
         "packages/*"
