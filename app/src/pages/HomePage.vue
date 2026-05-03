@@ -105,7 +105,7 @@
                             <div class="image-bg"/>
                             <img
                                 class="image-src"
-                                src="/wa-apps/webasystvue/assets/img/logo.svg"
+                                src="/wa-apps/webasystvue/img/logo.svg"
                                 alt=""
                             >
                         </div>

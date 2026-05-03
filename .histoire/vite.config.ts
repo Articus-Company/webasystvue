@@ -32,9 +32,9 @@ export default defineConfig({
         theme: {
             title: 'Webasyst Vue',
             logo: {
-                square: '../assets/img/logo.svg',
-                light: '../assets/img/logo.svg',
-                dark: '../assets/img/logo.svg',
+                square: '../img/logo.svg',
+                light: '../img/logo.svg',
+                dark: '../img/logo.svg',
             },
         },
     },
