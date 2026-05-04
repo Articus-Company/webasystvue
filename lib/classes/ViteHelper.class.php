@@ -2,11 +2,11 @@
 
 class ViteHelper
 {
-    private const string DEFAULT_ENTRY = 'src/main.ts';
-    private const string DEFAULT_DIST_DIR = 'app/dist';
-    private const string HOT_FILENAME = 'hot';
-    private const string MANIFEST_FILENAME = '.vite/manifest.json';
-    private const string VITE_CLIENT_PATH = '@vite/client';
+    private const DEFAULT_ENTRY = 'src/main.ts';
+    private const DEFAULT_DIST_DIR = 'app/dist';
+    private const HOT_FILENAME = 'hot';
+    private const MANIFEST_FILENAME = '.vite/manifest.json';
+    private const VITE_CLIENT_PATH = '@vite/client';
 
     /**
      * @throws waException
