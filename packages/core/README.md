@@ -5,16 +5,22 @@
 </p>
 
 <h1 align="center">
-WbasystVue
+WebasystVue
 </h1>
 
 <p align="center">
 Задекларированная <a href="https://vuejs.org/">Vue 3</a> библиотека компонентов <a href="https://www.webasyst.ru/">Webasyst</a>.
-<p>
+</p>
 
 <p align="center">
 <img alt="NPM Version" src="https://img.shields.io/npm/v/webasystvue?labelColor=34495E&color=41B883">
 <img alt="NPM Downloads" src="https://img.shields.io/npm/dm/webasystvue?labelColor=34495E&color=41B883">
+</p>
+
+<p align="center">
+  <a href="https://www.webasyst.ru/store/app/webasystvue/">
+    Документация
+  </a>
 </p>
 
 <p align="center">
