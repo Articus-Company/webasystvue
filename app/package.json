@@ -31,7 +31,7 @@
         "@vue/tsconfig": "^0.9.1",
         "vite": "^8.0.10",
         "vite-plugin-vue-devtools": "^8.1.1",
-        "vite-plugin-webasyst": "link:../packages/vite-plugin-webasyst",
+        "vite-plugin-webasyst": "^0.1.0",
         "vue-tsc": "^3.2.7"
     }
 }

@@ -12,7 +12,7 @@ export default defineConfig({
             },
         }),
         vueDevTools(),
-        webasyst({ appId: 'webasystvue' }),
+        webasyst({ input: 'src/main.ts' }),
     ],
     resolve: {
         alias: {
@@ -20,10 +20,7 @@ export default defineConfig({
         },
     },
     build: {
-        rolldownOptions: {
-            input: {
-                main: 'src/main.ts',
-            },
-        },
+        // wa compress удаляет скрытые директории из архива (dist/.vite)
+        manifest: 'manifest.json',
     },
 })

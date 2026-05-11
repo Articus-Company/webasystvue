@@ -13,7 +13,6 @@
         "lint:fix": "eslint \"{app,.histoire,packages}/**/*.{ts,tsx,js,jsx,vue}\" --fix",
         "build-only:core": "cd packages/core && pnpm build-only",
         "build:core": "cd packages/core && pnpm build",
-        "build:vite-plugin-webasyst": "cd packages/vite-plugin-webasyst && pnpm build",
         "build-only:app": "cd app && pnpm build-only",
         "build:app": "cd app && pnpm build"
     },

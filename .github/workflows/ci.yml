@@ -35,9 +35,6 @@ jobs:
             -   name: Build core
                 run: pnpm build-only:core
 
-            -   name: Build vite plugin
-                run: pnpm build:vite-plugin-webasyst
-
             -   name: Build app
                 run: pnpm build-only:app
 
