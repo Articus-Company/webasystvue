@@ -27,6 +27,8 @@ export default defineConfig([
                     { test: /lib[\\/]utils/, name: 'utils' },
                     // Без этого инлайнится в каждый компонент
                     { test: /node_modules[\\/]clsx/, name: 'clsx' },
+                    // vue export helper попадает в index.js без этого, но не экспортируется наружу
+                    { test: /export-helper/, name: 'export-helper' },
                     // src/alert/AlertClose.vue -> dist/alert/alertClose.js
                     {
                         test: id => id.includes('/src/') && id.includes('.vue'),
