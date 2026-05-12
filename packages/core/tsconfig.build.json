@@ -13,5 +13,6 @@
         "skipLibCheck": true
     },
     "vueCompilerOptions": {},
-    "include": ["env.d.ts", "src/**/*", "src/**/*.ts", "src/**/*.vue", "lib/**/*.ts"]
+    "include": ["env.d.ts", "src/**/*", "src/**/*.ts", "src/**/*.vue", "lib/**/*.ts"],
+    "exclude": ["node_modules", "**/*.test.ts"]
 }

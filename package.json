@@ -14,7 +14,8 @@
         "build-only:core": "cd packages/core && pnpm build-only",
         "build:core": "cd packages/core && pnpm build",
         "build-only:app": "cd app && pnpm build-only",
-        "build:app": "cd app && pnpm build"
+        "build:app": "cd app && pnpm build",
+        "test": "cd packages/core && pnpm test --run"
     },
     "devDependencies": {
         "@antfu/eslint-config": "^8.2.0",
