@@ -10,7 +10,7 @@ on:
 
 jobs:
     run:
-        name: Lint, Spell Check and Type Check
+        name: Tests, Lint, Spell Check and Type Check
         runs-on: ubuntu-latest
         steps:
             -   name: Checkout Actions Repository
@@ -43,3 +43,6 @@ jobs:
 
             -   name: Lint
                 run: pnpm lint
+
+            -   name: Test
+                run: pnpm test

@@ -1,0 +1,18 @@
+import { resolve } from 'node:path'
+import vue from '@vitejs/plugin-vue'
+import { defineConfig } from 'vitest/config'
+
+export default defineConfig({
+    plugins: [vue()],
+    resolve: {
+        alias: {
+            '@lib': resolve(import.meta.dirname, 'lib'),
+            '@': resolve(import.meta.dirname, 'src'),
+        },
+    },
+    test: {
+        environment: 'jsdom',
+        exclude: ['**/node_modules/**'],
+        include: ['./**/*.test.ts'],
+    },
+})
