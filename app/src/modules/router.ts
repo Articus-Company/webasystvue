@@ -13,6 +13,7 @@ import {
     CardPage,
     ChipsPage,
     ContentPage,
+    FieldsPage,
     FlexboxPage,
     FoundABug,
     GettingStartedPage,
@@ -117,6 +118,11 @@ const router = createRouter({
                     path: 'content',
                     component: ContentPage,
                     name: 'docs-content',
+                },
+                {
+                    path: 'fields',
+                    component: FieldsPage,
+                    name: 'docs-fields',
                 },
                 {
                     path: 'flexbox',

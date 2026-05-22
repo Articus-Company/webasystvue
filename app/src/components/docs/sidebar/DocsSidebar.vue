@@ -168,6 +168,10 @@ const routes = [
         routeName: 'docs-content',
     },
     {
+        name: 'Fields',
+        routeName: 'docs-fields',
+    },
+    {
         name: 'Flexbox',
         routeName: 'docs-flexbox',
     },
