@@ -23,5 +23,5 @@ import { Primitive } from 'reka-ui'
 
 const props = defineProps<FieldsGroupProps>()
 
-const delegatedProps = reactiveOmit(props)
+const delegatedProps = reactiveOmit(props, 'class')
 </script>

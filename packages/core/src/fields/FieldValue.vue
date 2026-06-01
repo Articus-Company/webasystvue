@@ -26,5 +26,5 @@ import { fieldValueVariants } from '.'
 
 const props = defineProps<FieldValueProps>()
 
-const delegatedProps = reactiveOmit(props, 'middle', 'submit')
+const delegatedProps = reactiveOmit(props, 'class', 'middle', 'submit')
 </script>

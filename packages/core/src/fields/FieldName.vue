@@ -31,6 +31,7 @@ const props = defineProps<FieldNameProps>()
 
 const delegatedProps = reactiveOmit(
     props,
+    'class',
     'forInput',
     'forButton',
     'forCheckbox',
